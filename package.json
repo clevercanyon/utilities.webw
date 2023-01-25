@@ -3,7 +3,7 @@
 	"publishConfig": {
 		"access": "restricted"
 	},
-	"version": "1.0.21",
+	"version": "1.0.22",
 	"license": "GPL-3.0-or-later",
 	"name": "@clevercanyon/utilities.webw",
 	"description": "Another great project by Clever Canyon.",
@@ -42,7 +42,7 @@
 	"peerDependenciesMeta": {},
 	"bundleDependencies": [],
 	"devDependencies": {
-		"@clevercanyon/skeleton-dev-deps": "^1.0.79"
+		"@clevercanyon/skeleton-dev-deps": "^1.0.81"
 	},
 	"overrides": {},
 	"cpu": ["x64", "arm64"],
