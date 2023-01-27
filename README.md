@@ -1,3 +1,3 @@
-# Clever Canyon: Skeleton
+# @clevercanyon/utilities.webw
 
-This is a skeleton for new projects.
+Another great project by Clever Canyon.
