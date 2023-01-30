@@ -3,10 +3,10 @@
 	"publishConfig": {
 		"access": "restricted"
 	},
-	"version": "1.0.30",
+	"version": "1.0.31",
 	"license": "GPL-3.0-or-later",
 	"name": "@clevercanyon/utilities.webw",
-	"description": "Another great project by Clever Canyon.",
+	"description": "Utilities for JavaScript apps running in a web worker environment.",
 	"repository": "https://github.com/clevercanyon/utilities.webw",
 	"homepage": "https://github.com/clevercanyon/utilities.webw#readme",
 	"bugs": "https://github.com/clevercanyon/utilities.webw/issues",
