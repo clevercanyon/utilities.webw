@@ -3,7 +3,7 @@
 	"publishConfig": {
 		"access": "restricted"
 	},
-	"version": "1.0.31",
+	"version": "1.0.32",
 	"license": "GPL-3.0-or-later",
 	"name": "@clevercanyon/utilities.webw",
 	"description": "Utilities for JavaScript apps running in a web worker environment.",
@@ -45,7 +45,7 @@
 	"optionalDependencies": {},
 	"bundleDependencies": [],
 	"devDependencies": {
-		"@clevercanyon/skeleton-dev-deps": "^1.0.102"
+		"@clevercanyon/skeleton-dev-deps": "^1.0.103"
 	},
 	"overrides": {},
 	"workspaces": [],
@@ -71,11 +71,11 @@
 						"architects": "push"
 					},
 					"labels": {},
-					"configVersion": "1.0.1",
+					"configVersion": "1.0.2",
 					"envsVersion": ""
 				},
 				"npmjs": {
-					"configVersions": "1.0.1,1.0.0"
+					"configVersions": "1.0.2,1.0.2"
 				}
 			}
 		}
