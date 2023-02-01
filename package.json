@@ -3,7 +3,7 @@
 	"publishConfig": {
 		"access": "restricted"
 	},
-	"version": "1.0.32",
+	"version": "1.0.33",
 	"license": "GPL-3.0-or-later",
 	"name": "@clevercanyon/utilities.webw",
 	"description": "Utilities for JavaScript apps running in a web worker environment.",
@@ -45,7 +45,7 @@
 	"optionalDependencies": {},
 	"bundleDependencies": [],
 	"devDependencies": {
-		"@clevercanyon/skeleton-dev-deps": "^1.0.103"
+		"@clevercanyon/skeleton-dev-deps": "^1.0.110"
 	},
 	"overrides": {},
 	"workspaces": [],
