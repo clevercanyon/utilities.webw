@@ -3,7 +3,7 @@
 	"publishConfig": {
 		"access": "restricted"
 	},
-	"version": "1.0.42",
+	"version": "1.0.43",
 	"license": "GPL-3.0-or-later",
 	"name": "@clevercanyon/utilities.webw",
 	"description": "Utilities for JavaScript apps running in a web worker environment.",
@@ -39,12 +39,14 @@
 		}
 	},
 	"dependencies": {},
-	"peerDependencies": {},
+	"peerDependencies": {
+		"@clevercanyon/utilities": "^1.0.111"
+	},
 	"peerDependenciesMeta": {},
 	"optionalDependencies": {},
 	"bundleDependencies": [],
 	"devDependencies": {
-		"@clevercanyon/skeleton-dev-deps": "^1.0.132"
+		"@clevercanyon/skeleton-dev-deps": "^1.0.133"
 	},
 	"overrides": {},
 	"cpu": ["x64", "arm64"],
