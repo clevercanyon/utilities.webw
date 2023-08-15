@@ -3,7 +3,7 @@
 	"publishConfig": {
 		"access": "restricted"
 	},
-	"version": "1.0.49",
+	"version": "1.0.50",
 	"license": "GPL-3.0-or-later",
 	"name": "@clevercanyon/utilities.webw",
 	"description": "Utilities for JavaScript apps running in a web worker environment.",
@@ -27,7 +27,7 @@
 			"types": "./dist/types/index.d.ts"
 		}
 	},
-	"sideEffects": ["./src/*.{html,scss,ts,tsx}", "./src/resources/init-env.ts"],
+	"sideEffects": ["./src/resources/init-env.ts", "./src/index.ts"],
 	"module": "./dist/index.js",
 	"main": "./dist/index.umd.cjs",
 	"browser": "./dist/index.umd.cjs",
@@ -40,13 +40,13 @@
 	},
 	"dependencies": {},
 	"peerDependencies": {
-		"@clevercanyon/utilities": "^1.0.124"
+		"@clevercanyon/utilities": "^1.0.131"
 	},
 	"peerDependenciesMeta": {},
 	"optionalDependencies": {},
 	"bundleDependencies": [],
 	"devDependencies": {
-		"@clevercanyon/skeleton-dev-deps": "^1.0.144"
+		"@clevercanyon/skeleton-dev-deps": "^1.0.156"
 	},
 	"overrides": {},
 	"cpu": ["x64", "arm64"],
@@ -63,7 +63,13 @@
 				},
 				"build": {
 					"appType": "cma",
-					"targetEnv": "webw"
+					"targetEnv": "webw",
+					"entryFiles": []
+				},
+				"ssrBuild": {
+					"appType": "",
+					"targetEnv": "",
+					"entryFiles": []
 				},
 				"github": {
 					"teams": {
