@@ -3,7 +3,7 @@
 	"publishConfig": {
 		"access": "restricted"
 	},
-	"version": "1.0.53",
+	"version": "1.0.54",
 	"license": "GPL-3.0-or-later",
 	"name": "@clevercanyon/utilities.webw",
 	"description": "Utilities for JavaScript apps running in a web worker environment.",
@@ -23,15 +23,15 @@
 	"exports": {
 		".": {
 			"import": "./dist/index.js",
-			"require": "./dist/index.umd.cjs",
+			"require": "./dist/index.cjs",
 			"types": "./dist/types/index.d.ts"
 		}
 	},
 	"sideEffects": ["./src/resources/init-env.ts", "./src/index.ts"],
 	"module": "./dist/index.js",
-	"main": "./dist/index.umd.cjs",
-	"browser": "./dist/index.umd.cjs",
-	"unpkg": "./dist/index.umd.cjs",
+	"main": "./dist/index.cjs",
+	"browser": "./dist/index.js",
+	"unpkg": "./dist/index.js",
 	"types": "./dist/types/index.d.ts",
 	"typesVersions": {
 		">=3.1": {
@@ -40,13 +40,13 @@
 	},
 	"dependencies": {},
 	"peerDependencies": {
-		"@clevercanyon/utilities": "^1.0.198"
+		"@clevercanyon/utilities": "^1.0.199"
 	},
 	"peerDependenciesMeta": {},
 	"optionalDependencies": {},
 	"bundleDependencies": [],
 	"devDependencies": {
-		"@clevercanyon/skeleton-dev-deps": "^1.0.164"
+		"@clevercanyon/dev-deps": "^1.0.167"
 	},
 	"overrides": {},
 	"cpu": ["x64", "arm64"],
