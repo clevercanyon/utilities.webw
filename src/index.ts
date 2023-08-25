@@ -4,4 +4,4 @@
 
 import './resources/init-env.js';
 
-export {};
+export {}; // Nothing at this time.
