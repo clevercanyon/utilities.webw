@@ -14,7 +14,7 @@
 	 * <custom:start> */
 
 	"compilerOptions": {
-		"lib": ["es2021", "webworker"],
+		"lib": ["es2022", "webworker"],
 		"types": ["vite/client"]
 	}
 	/* </custom:end> */
