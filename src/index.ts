@@ -2,6 +2,6 @@
  * Utility exports.
  */
 
-import './resources/init-env.ts';
+import './resources/init.ts';
 
 export {}; // Nothing at this time.
