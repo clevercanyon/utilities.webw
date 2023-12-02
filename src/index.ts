@@ -2,6 +2,6 @@
  * Utility exports.
  */
 
-import './resources/init.ts';
+import '#@init.ts';
 
 export {}; // Nothing at this time.
